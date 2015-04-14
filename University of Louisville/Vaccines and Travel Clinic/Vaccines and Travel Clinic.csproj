@@ -446,6 +446,10 @@
     <Content Include="Views\Requests\Details.cshtml" />
     <Content Include="Views\Requests\Edit.cshtml" />
     <Content Include="Views\Requests\Index.cshtml" />
+    <Content Include="Views\PlaceOrder\Create.cshtml" />
+    <Content Include="Views\PlaceOrder\_ItemPartialView.cshtml" />
+    <Content Include="Views\PlaceOrder\Complete.cshtml" />
+    <Content Include="Views\PlaceOrder\_SupplierPartialView.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -530,6 +534,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\OrderLinesController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
+    <Compile Include="Controllers\PlaceOrderController.cs" />
     <Compile Include="Controllers\RequestsController.cs" />
     <Compile Include="Controllers\RolesController.cs" />
     <Compile Include="Controllers\SaleLinesController.cs" />
